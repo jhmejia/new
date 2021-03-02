@@ -1,2 +1,2 @@
-# John Henry New Template
-This template is a minimal form of the [Particle Jekyll Template](https://github.com/nrandecker/particle).
+# John Henry New Portfolio
+To be found at https://jhmejia.com/PortfolioNew
