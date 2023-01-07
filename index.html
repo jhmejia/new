@@ -66,6 +66,32 @@
   <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 
   <style>
+    :root {  
+  --green: rgb(42, 252, 152);
+  --blue: rgb(41, 121, 255);
+    }
+
+    @keyframes float {
+      from, to {
+        transform: translateY(-0%);
+      }
+      
+      50% {    
+        transform: translateY(-3%);
+      }
+    }
+
+    @keyframes background-pan {
+      from {
+        background-position: 1000% center;
+      }
+      
+      to {
+        background-position: 0% center;
+      }
+    }
+
+
     .fancy > .outer {
     transition-duration: 800ms;
   }
