@@ -328,27 +328,8 @@ h3 {
 } */
 
 #intro.section {
-  background: linear-gradient(135deg, #ffafbd, #ffc3a0, #a0ced9);
-  background-size: 400% 400%;
-  animation: gradientAnimation 10s ease infinite;
+  background: #a0ced9;
   position: relative;
-  padding: 60px;
-  text-align: center;
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 
