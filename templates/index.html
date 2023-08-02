@@ -482,14 +482,23 @@
             <div class="role brown-text text-darken-2">Site Reliability Engineer Intern </div>
             <ul>
               <li>
-                Migrated a runbooks backup system from a legacy system to a new pipeline using AWS Lambda, SQS, and
-                Flask.
-                Improved the reliability of the system by 50%.
+                Migrated runbook backup system to AWS SQS + Lambdas, improving scalability + reliability and
+                decreasing backup time by ~90.2%, allowing the service to be run 4x as often and
+                decreasing cost by 71.42%
+              </li>
+              <li>
+                Backup runbook system incrementally backs up 14,700 runbooks on a day-to-day basis. It is used by
+                721 separate confluence pages and across 188 spaces
+              </li>
+              <li>
+                Streamlined database health monitoring through automated generation of PDF reports using AWS S3,
+                Lambdas, and Step Functions; reports sent to Confluence and unhealthy signs are alerted via Slack
               </li>
 
               <li>
-                <b>Tools:</b> Python, Agile Sprints, Confluence, Bitbucket, SQS (AWS), Lambda (AWS), Flask, Java,
-                Docker, Grype, JIRA, Jenkins, Git
+                <b>Tools:</b> Python, Agile Sprints, Confluence, Bitbucket, SQS (AWS), Lambda (AWS), Step Functions
+                (AWS), Flask, Typescript,
+                Docker, SignalFX, JIRA, Jenkins, Git, CloudWatch, S3, Splunk
               </li>
             </ul>
           </div>
@@ -554,7 +563,8 @@
               <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
                 <p>
-                  <span class="card-title"><a href="http://meditab.com" target="_blank" class="teal-text hoverline">HEB
+                  <span class="card-title"><a href="https://digital.heb.com/" target="_blank"
+                      class="teal-text hoverline">HEB
                       Digital</a></span>
                 </p>
               </div>
