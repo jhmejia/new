@@ -7,11 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PGZH8HT');</script>
   <!-- End Google Tag Manager -->
 
   <!-- Materialize - Compiled and minified CSS-->
@@ -27,7 +30,7 @@
   <!-- Open Graph-->
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="John Henry Mejia| Software Developer" />
+  <meta property="og:title" content="John Henry Mejia | Software Developer" />
   <meta property="og:description" content="Software Developer" />
   <meta property="og:url" content="https://jhmejia.com/" />
   <meta property="og:site_name" content="John Henry Mejia | Software Developer" />
@@ -35,7 +38,8 @@
   <meta property="og:image" content="https://jhmejia.com/examples/preview.JPG" />
 
   <meta name="author" content="John Henry Mejia" />
-  <meta name="description" content="Software Developer with a passion for backend development and artificial intelligence." />
+  <meta name="description"
+    content="Software Developer with a passion for backend development and artificial intelligence." />
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
@@ -58,137 +62,136 @@
   <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 
   <style>
-    :root {  
-  --green-fancy: rgb(219, 219, 219);
-  --blue-fancy: rgb(0,0, 0);
-}
+    :root {
+      --green-fancy: rgb(219, 219, 219);
+      --blue-fancy: rgb(0, 0, 0);
+    }
 
-@keyframes float {
-  from, to {
-    transform: translateY(-0%);
-  }
-  
-  50% {    
-    transform: translateY(-5%);
-  }
-}
+    @keyframes float {
 
-@keyframes background-pan {
-  from {
-    background-position: 1000% center;
-  }
-  
-  to {
-    background-position: 0% center;
-  }
-}
+      from,
+      to {
+        transform: translateY(-0%);
+      }
+
+      50% {
+        transform: translateY(-5%);
+      }
+    }
+
+    @keyframes background-pan {
+      from {
+        background-position: 1000% center;
+      }
+
+      to {
+        background-position: 0% center;
+      }
+    }
 
 
-.cool-word {
-  color: white;
-  font-family: "Rubik", sans-serif;
-  font-size: clamp(1.8rem, 6.65vw, 8rem);
-  margin: 0rem;
-  text-transform: uppercase;
-  transition: opacity 250ms ease;
-}
+    .cool-word {
+      color: white;
+      font-family: "Rubik", sans-serif;
+      font-size: clamp(1.8rem, 6.65vw, 8rem);
+      margin: 0rem;
+      text-transform: uppercase;
+      transition: opacity 250ms ease;
+    }
 
-.fancy span {
-  display: inline-block;
-}
+    .fancy span {
+      display: inline-block;
+    }
 
-.fancy > .outer {
-  transition: transform 350ms ease;
-}
+    .fancy>.outer {
+      transition: transform 350ms ease;
+    }
 
-.fancy > .outer {
-  transition-duration: 800ms;
-}
+    .fancy>.outer {
+      transition-duration: 800ms;
+    }
 
-.fancy > .outer > .inner {
-  animation: float 5s ease infinite;
-}
+    .fancy>.outer>.inner {
+      animation: float 5s ease infinite;
+    }
 
-.fancy > .outer > .inner > .letter {
-  background: linear-gradient(
-    to right,
-    var(--blue-fancy),
-    var(--green-fancy),
-    var(--blue-fancy)
-  );
-  background-size: 1000%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: background-pan 80s linear infinite;
-}
+    .fancy>.outer>.inner>.letter {
+      background: linear-gradient(to right,
+          var(--blue-fancy),
+          var(--green-fancy),
+          var(--blue-fancy));
+      background-size: 1000%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: background-pan 80s linear infinite;
+    }
 
-.fancy > .outer:nth-child(1) {
-  transform: translate(-50%, 60%) rotate(8deg);
-}
+    .fancy>.outer:nth-child(1) {
+      transform: translate(-50%, 60%) rotate(8deg);
+    }
 
-.fancy > .outer:nth-child(2) {
-  transform: translate(-40%, 20%) rotate(4deg);
-}
+    .fancy>.outer:nth-child(2) {
+      transform: translate(-40%, 20%) rotate(4deg);
+    }
 
-.fancy > .outer:nth-child(3) {
-  transform: translate(-30%, 60%) rotate(-6deg);
-}
+    .fancy>.outer:nth-child(3) {
+      transform: translate(-30%, 60%) rotate(-6deg);
+    }
 
-.fancy > .outer:nth-child(4) {
-  transform: translate(-30%, 8%) rotate(-8deg);
-}
+    .fancy>.outer:nth-child(4) {
+      transform: translate(-30%, 8%) rotate(-8deg);
+    }
 
-.fancy > .outer:nth-child(5) {
-  transform: translate(99%, -20%) rotate(5deg);
-}
+    .fancy>.outer:nth-child(5) {
+      transform: translate(99%, -20%) rotate(5deg);
+    }
 
-.fancy > .outer:nth-child(6) {
-  transform: translate(60%, 20%) rotate(-3deg);
-}
+    .fancy>.outer:nth-child(6) {
+      transform: translate(60%, 20%) rotate(-3deg);
+    }
 
-.fancy > .outer:nth-child(7) {
-  transform: translate(60%, -30%) rotate(-5deg);
-}
+    .fancy>.outer:nth-child(7) {
+      transform: translate(60%, -30%) rotate(-5deg);
+    }
 
-.fancy > .outer:nth-child(8) {
-  transform: translate(60%, 15%) rotate(10deg);
-}
+    .fancy>.outer:nth-child(8) {
+      transform: translate(60%, 15%) rotate(10deg);
+    }
 
-.fancy > .outer:nth-child(9) {
-  transform: translate(60%, -25%) rotate(8deg);
-}
+    .fancy>.outer:nth-child(9) {
+      transform: translate(60%, -25%) rotate(8deg);
+    }
 
-.fancy > .outer:nth-child(10) {
-  transform: translate(60%, 15%) rotate(-6deg);
-}
+    .fancy>.outer:nth-child(10) {
+      transform: translate(60%, 15%) rotate(-6deg);
+    }
 
-.fancy > .outer:nth-child(11) {
-  transform: translate(100%, -10%) rotate(-3deg);
-}
+    .fancy>.outer:nth-child(11) {
+      transform: translate(100%, -10%) rotate(-3deg);
+    }
 
-.fancy > .outer:nth-child(12) {
-  transform: translate(120%, -30%) rotate(-10deg);
-}
+    .fancy>.outer:nth-child(12) {
+      transform: translate(120%, -30%) rotate(-10deg);
+    }
 
-.fancy > .outer:nth-child(13) {
-  transform: translate(150%, 10%) rotate(-10deg);
-}
+    .fancy>.outer:nth-child(13) {
+      transform: translate(150%, 10%) rotate(-10deg);
+    }
 
-.fancy > .outer:nth-child(14) {
-  transform: translate(120%, -25%) rotate(-10deg);
-}
+    .fancy>.outer:nth-child(14) {
+      transform: translate(120%, -25%) rotate(-10deg);
+    }
 
-.fancy > .outer:nth-child(15) {
-  transform: translate(300%, 15%) rotate(-10deg);
-}
+    .fancy>.outer:nth-child(15) {
+      transform: translate(300%, 15%) rotate(-10deg);
+    }
 
-.fancy > .outer:nth-child(16) {
-  transform: translate(120%, -25%) rotate(-10deg);
-}
-
+    .fancy>.outer:nth-child(16) {
+      transform: translate(120%, -25%) rotate(-10deg);
+    }
   </style>
-  
-  
+
+
 
 
 
@@ -197,10 +200,10 @@
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe>
   </noscript>
-  
+
   <!-- Navigation Menu-->
   <!-- Nav class 1 -->
   <nav class="hide-on-small-only">
@@ -240,7 +243,7 @@
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
       </li>
-      
+
       <li class="bold">
         <!--
         ICONS:
@@ -268,9 +271,10 @@
         4. mdi-file-attachment
         5. mdi-file-folder-shared
         -->
-       
-        <a aria-label="Open John Henry's resume in a new tab" href="https://tcu.app.box.com/v/jhmejiaresume" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+
+        <a aria-label="Open John Henry's resume in a new tab" href="https://tcu.app.box.com/v/jhmejiaresume"
+          target="_blank" class="waves-effect waves-dark teal-text"><i
+            class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
 
       <li class="bold">
@@ -279,8 +283,8 @@
         2. mdi-content-mail
         3. mdi-communication-email
         -->
-        <a aria-label="Open JH Blog in a new tab" href="https://blog.jhmejia.com" class="waves-effect waves-dark teal-text"><i
-            class="mdi-file-attachment small"></i><span>Blog</span></a>
+        <a aria-label="Open JH Blog in a new tab" href="https://blog.jhmejia.com"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-attachment small"></i><span>Blog</span></a>
       </li>
     </ul>
   </nav>
@@ -290,7 +294,8 @@
     <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
       class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">John Henry Mejia</a><span class="black-text">Software Developer</span>
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">John Henry
+        Mejia</a><span class="black-text">Software Developer</span>
     </div>
   </nav>
 
@@ -324,13 +329,11 @@
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Open John Henry's Resume in a new tab"
-          href="https://resume.jhmejia.com/" target="_blank"
+        <a aria-label="Open John Henry's Resume in a new tab" href="https://resume.jhmejia.com/" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
       <li class="bold">
-        <a aria-label="Open John Henry's Blog in a new tab"
-          href="https://blog.jhmejia.com/" target="_blank"
+        <a aria-label="Open John Henry's Blog in a new tab" href="https://blog.jhmejia.com/" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-attachment small"></i><span>Blog</span></a>
       </li>
     </ul>
@@ -347,7 +350,7 @@
             <div class="caption">
               <br>
               <br>
-            
+
               <h2 id="channel-link" class="cool-word fancy">
                 <span class="teal">John Henry Mejía</span>
               </h2>
@@ -356,45 +359,46 @@
 
             </div>
 
-              <br>
-              <br>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              
-            </div>
-            <div class="social">
+            <br>
+            <br>
+            <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
 
-              <h5>Software engineer, student, and researcher with a passion for solving complex problems and building innovative solutions.</h5>
+          </div>
+          <div class="social">
 
-              <a href="http://linkedin.com/in/johnhenrymejia" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/jhmejia/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-              <!-- <a href="https://blog.jhmejia.com" target="_blank">
+            <h5>Software engineer, student, and researcher with a passion for solving complex problems and building
+              innovative solutions.</h5>
+
+            <a href="http://linkedin.com/in/johnhenrymejia" target="_blank">
+              <button class="icon-btn linkedin">
+                <i class="fa fa-linkedin"></i>
+              </button>
+            </a>
+            <a href="https://github.com/jhmejia/" target="_blank">
+              <button class="icon-btn github">
+                <i class="fa fa-github"></i>
+              </button>
+            </a>
+            <!-- <a href="https://blog.jhmejia.com" target="_blank">
                 <button class="icon-btn blogger">
                   <i class="fa fa-inverse"></i>
                 </button>
               </a> -->
 
-              <a href="https://blog.jhmejia.com" target="_blank">
-                <button class="icon-btn angellist">
-                  <i class="fa fa-angellist"></i>
-                </button>
-              </a>
+            <a href="https://blog.jhmejia.com" target="_blank">
+              <button class="icon-btn angellist">
+                <i class="fa fa-angellist"></i>
+              </button>
+            </a>
 
-             
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
+
+          </div>
+          <div class='buttons'>
+            <a href="#about" class="readme">Read More</a>
+            <a href="#contact" class="contactme">Contact Me</a>
           </div>
         </div>
+      </div>
       </div>
     </section>
 
@@ -403,7 +407,8 @@
       <h3 class="page-title white-text teal">About</h3>
       <div class="container flow-text">
 
-        <h5 style="color:rgb(0, 0, 0)">A <span class="typing" style="font-weight: 300; color:#004d40"></span> with a passion for Backend Development and Artificial Intelligence</h5>
+        <h5 style="color:rgb(0, 0, 0)">A <span class="typing" style="font-weight: 300; color:#004d40"></span> with a
+          passion for Backend Development and Artificial Intelligence</h5>
 
         <!-- <blockquote>
 
@@ -413,33 +418,38 @@
             A Software Developer with a passion for Backend Development and Artificial Intelligence.
 
           </h2>
-        </blockquote> -->        
+        </blockquote> -->
         <p>
-          I am a Computer Science Student at Texas Christian University. I enjoy problem-solving and coding, and always strive to bring 100% to the work I do.
+          I am a Computer Science Student at Texas Christian University. I enjoy problem-solving and coding, and always
+          strive to bring 100% to the work I do.
 
-          I have worked on technologies like Python, MySQL, PostgreSQL, MongoDB, HTML5, CSS, Java, and C during my bachelor's. 
+          I have worked on technologies like Python, MySQL, PostgreSQL, MongoDB, HTML5, CSS, Java, and C during my
+          bachelor's.
 
-          My current research interests are in the field of Artificial Intelligence, specifically in the areas of Machine Learning and Computer Vision. I am currently working on a project that uses Machine Learning to detect and classify objects in images.
+          My current research interests are in the field of Artificial Intelligence, specifically in the areas of
+          Machine Learning and Computer Vision. I am currently working on a project that uses Machine Learning to detect
+          and classify objects in images.
 
           In my free time, I row, climb, and play with my cats.
         </p>
         <p>
-          <ul>
-            <li><b>Languages:</b> Python, Java, C, Rust, HTML/CSS/JS, Bash</li>
-            <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
-            <li><b>Libraries:</b> NumPy, Pandas, Matplotlib</li>
-            <li><b>Frameworks:</b> Scikit-learn, Node.js, TensorFlow, PyTorch, Bootstrap</li>
-            <li><b>Tools & Technologies:</b> Git, Jenkins, Docker, AWS, JIRA</li>
-          </ul>
-          
+        <ul>
+          <li><b>Languages:</b> Python, Java, C, Rust, HTML/CSS/JS, Bash</li>
+          <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
+          <li><b>Libraries:</b> NumPy, Pandas, Matplotlib</li>
+          <li><b>Frameworks:</b> Scikit-learn, Node.js, TensorFlow, PyTorch, Bootstrap</li>
+          <li><b>Tools & Technologies:</b> Git, Jenkins, Docker, AWS, JIRA</li>
+        </ul>
+
         </p>
-          
+
         <!-- <p>
           
           Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
         </p> -->
         <p>
-          Current Focus: Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
+          Current Focus: Looking for an opportunity to work in a challenging position combining my skills in Software
+          Engineering, which provides professional development, interesting experiences and personal growth.
         </p>
         <!-- <p>
        
@@ -472,12 +482,14 @@
             <div class="role brown-text text-darken-2">Site Reliability Engineer Intern </div>
             <ul>
               <li>
-                Migrated a runbooks backup system from a legacy system to a new pipeline using AWS Lambda, SQS, and Flask.
+                Migrated a runbooks backup system from a legacy system to a new pipeline using AWS Lambda, SQS, and
+                Flask.
                 Improved the reliability of the system by 50%.
               </li>
-              
+
               <li>
-                <b>Tools:</b> Python, Agile Sprints, Confluence, Bitbucket, SQS (AWS), Lambda (AWS), Flask, Java, Docker, Grype, JIRA, Jenkins, Git
+                <b>Tools:</b> Python, Agile Sprints, Confluence, Bitbucket, SQS (AWS), Lambda (AWS), Flask, Java,
+                Docker, Grype, JIRA, Jenkins, Git
               </li>
             </ul>
           </div>
@@ -506,18 +518,21 @@
             <div class="role brown-text text-darken-2">Software Engineer Intern</div>
             <ul>
               <li>
-                Created plane clustering algorithms and flight pattern identifiers to assist identifying combat ID. 
-                For example, identifying a plane as doing a loop or a figure 8, or identifying clusters of planes that are landing and taking off.
+                Created plane clustering algorithms and flight pattern identifiers to assist identifying combat ID.
+                For example, identifying a plane as doing a loop or a figure 8, or identifying clusters of planes that
+                are landing and taking off.
               </li>
               <li>
-                Created Java applet to transform between different coordinate systems from different flight data sources.
-                Combined data from multiple flight data sources to create a single source of truth for the Athena MLaaS system.
+                Created Java applet to transform between different coordinate systems from different flight data
+                sources.
+                Combined data from multiple flight data sources to create a single source of truth for the Athena MLaaS
+                system.
               </li>
-              
+
               <li>Set up automated Grype scans of Linux container images w/ response emails, etc.</li>
-                
-              
-              
+
+
+
               <li>
                 <b>Tools:</b> Python, Scikit-learn, Pytorch, Java, Docker, Jenkins, Git, RHEL, Agile Sprints
               </li>
@@ -528,7 +543,7 @@
           </div>
         </div>
 
-        
+
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -539,8 +554,8 @@
               <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
                 <p>
-                  <span class="card-title"><a href="http://meditab.com" target="_blank"
-                      class="teal-text hoverline">HEB Digital</a></span>
+                  <span class="card-title"><a href="http://meditab.com" target="_blank" class="teal-text hoverline">HEB
+                      Digital</a></span>
                 </p>
               </div>
             </div>
@@ -555,7 +570,7 @@
               <li>
                 <b>Tools:</b> Docker, Git, Typescript, Jira, Flask, Slack, AWS
               </li>
-             
+
             </ul>
           </div>
           <div class="card-action">
@@ -597,8 +612,8 @@
           </div>
         </div>
 
-       
-        
+
+
 
       </div>
     </section>
@@ -613,7 +628,8 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/Deep-learning-for-computer-vision2.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="music streaming app" src="/assets/img/Deep-learning-for-computer-vision2.png"
+                  style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Machine Learning Blog
@@ -628,7 +644,8 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Python, scikit-learn, pandas/geopandas, OpenCV, APIs, web scraping (selenium, beautifulsoup)</li>
+                  <li><b>Tools:</b> Python, scikit-learn, pandas/geopandas, OpenCV, APIs, web scraping (selenium,
+                    beautifulsoup)</li>
                   <li>Clustering crimes in LA city, mapping them, and finding conclusions from it</li>
                   <li>Making a classification model from web scraped images</li>
                   <li>Identifying and marking heads in an image.</li>
@@ -690,7 +707,8 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="quiz app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%"
+                  class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Book Management System<i
@@ -714,8 +732,9 @@
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/jhmejia/book-management-sys"
-                    target="_blank" data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/jhmejia/book-management-sys" target="_blank" data-position="top"
+                    data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -727,7 +746,8 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/brain.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="music streaming app" src="/assets/img/brain.png" style="height: 100%; width: 100%"
+                  class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Google Image Web Scraper
@@ -746,16 +766,17 @@
                   <li>Builds a search query, and searches google images. Finds original images, not just thumbnails</li>
                   <li>Support for multiple queries in 1 program</li>
 
-                
+
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Blog" href="https://blog.jhmejia.com/2023/01/making-google-image-scraper.html" target="_blank" data-position="top"
-                    data-tooltip="View Online"
+                  <a aria-label="Visit Blog" href="https://blog.jhmejia.com/2023/01/making-google-image-scraper.html"
+                    target="_blank" data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/jhmejia/google-image-scraper"
-                    target="_blank" data-position="top" data-tooltip="View Source"
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/jhmejia/google-image-scraper" target="_blank" data-position="top"
+                    data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
@@ -766,7 +787,8 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/brain.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="music streaming app" src="/assets/img/brain.png" style="height: 100%; width: 100%"
+                  class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Superfrog Student Scheduler
@@ -790,8 +812,8 @@
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit Website" href="https://superfrogscheduler.xyz" target="_blank" data-position="top"
-                    data-tooltip="View Online"
+                  <a aria-label="Visit Website" href="https://superfrogscheduler.xyz" target="_blank"
+                    data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
                   <a aria-label="Visit the GitHub repo for  project" href="https://github.com/jhmejia/webtech-superfrog"
@@ -803,9 +825,9 @@
             </div>
           </div>
 
-          
 
-          
+
+
 
           <!-- ************* -->
         </div>
@@ -926,7 +948,8 @@
                 <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
               </div>
               <div class="col s4 m2">
-                <img alt="" src="/assets/img/agile-method.png" class="responsive-img" />Agile Development (Scrum, Kanban, Sprints, etc.)
+                <img alt="" src="/assets/img/agile-method.png" class="responsive-img" />Agile Development (Scrum,
+                Kanban, Sprints, etc.)
               </div>
             </div>
           </div>
@@ -945,11 +968,12 @@
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="https://cse.tcu.edu/" target="_blank" class="teal-text hoverline">Texas Christian University</a></span>
+                  <span class="card-title"><a href="https://cse.tcu.edu/" target="_blank"
+                      class="teal-text hoverline">Texas Christian University</a></span>
                 </p>
                 <p class="brown-text">Fort Worth, TX</p>
                 <p>
-                  <b>Degree: </b>Bachelor of Science in Computer Science      
+                  <b>Degree: </b>Bachelor of Science in Computer Science
                   <br>
                   <b>Minors: </b>Mathematics and General Business
                   <b>CGPA: </b>3.2/4.0
@@ -959,12 +983,12 @@
                   <p>
                     <b>Relevant Courseworks:</b>
                     Currently Taking (Fall 2023)
-                    <ul>
-                      <li>Deep Learning</li>
-                      <li>Software Engineering</li>
+                  <ul>
+                    <li>Deep Learning</li>
+                    <li>Software Engineering</li>
 
-                    </ul>
-                    Previously Taken
+                  </ul>
+                  Previously Taken
                   <ul>
                     <li>Web Technologies (Spring 2023)</li>
                     <li>Data Mining and Visualization (Spring 2023) </li>
@@ -974,9 +998,9 @@
                     <li>Database Systems (Fall 2022)</li>
                     <li>Computer Organization (Spring 2022)</li>
                     <li>Programming Language Concepts (Spring 2022)</li>
-                    <li>Linux/Unix System Administration (Spring 2022)</li>  
-                    <li>Data Structures (Fall 2021)</li>  
-                    <li>Techniques in Programming (Spring 2021)</li>                      
+                    <li>Linux/Unix System Administration (Spring 2022)</li>
+                    <li>Data Structures (Fall 2021)</li>
+                    <li>Techniques in Programming (Spring 2021)</li>
                   </ul>
                   </p>
 
@@ -984,13 +1008,14 @@
               </div>
             </div>
 
-            
+
           </div>
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-content">
                 <p>
-                  <span class="card-title"><a href="https://www.pfisd.net/domain/9" target="_blank" class="teal-text hoverline">
+                  <span class="card-title"><a href="https://www.pfisd.net/domain/9" target="_blank"
+                      class="teal-text hoverline">
                       Pflugerville High School</a></span>
                 </p>
                 <p class="brown-text">Pflugerville, Texas</p>
@@ -1026,13 +1051,14 @@
       <div class="container">
         <p>
           <a aria-label="Email John Henry" href="mailto:johnhmejia02@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email John Henry" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+            data-tooltip="Email John Henry"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
               class="fa fa-envelope"></i><a aria-label="Email John Henry" href="mailto:johnhmejia02@gmail.com"
               class="hoverline">johnhmejia02@gmail.com</a></a>
         </p>
         <p>
-          <a aria-label="View John Henry on GitHub" href="http://github.com/jhmejia" target="_blank"
-            data-position="top" data-tooltip="View John Henry on GitHub"
+          <a aria-label="View John Henry on GitHub" href="http://github.com/jhmejia" target="_blank" data-position="top"
+            data-tooltip="View John Henry on GitHub"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
               aria-label="John Henry on Github" href="http://github.com/jhmejia" class="hoverline"
               target="_blank">github.com/jhmejia</a></a>
@@ -1041,12 +1067,13 @@
           <a aria-label="View John Henry on LinkedIn" href="http://linkedin.com/in/johnhenrymejia" target="_blank"
             data-position="top" data-tooltip="View John Henry on LinkedIn"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="John Henry on LinkedIn" href="http://linkedin.com/in/johnhenrymejia"
-              class="hoverline" target="_blank">linkedin.com/in/johnhenrymejia</a></a>
+              class="fa fa-linkedin"></i><a aria-label="John Henry on LinkedIn"
+              href="http://linkedin.com/in/johnhenrymejia" class="hoverline"
+              target="_blank">linkedin.com/in/johnhenrymejia</a></a>
         </p>
         <p>
-          <a aria-label="View John Henry's Blog'" href="https://blog.jhmejia.com" target="_blank"
-            data-position="top" data-tooltip="View John Henry's Blog"
+          <a aria-label="View John Henry's Blog'" href="https://blog.jhmejia.com" target="_blank" data-position="top"
+            data-tooltip="View John Henry's Blog"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
               class="fa fa-external-link"></i><a aria-label="John Henry's blog" href="https://blog.jhmejia.com"
               class="hoverline" target="_blank">blog.jhmejia.com</a></a>
@@ -1058,7 +1085,7 @@
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
-    var typed = new Typed('.typing',{
+    var typed = new Typed('.typing', {
       strings: ["Pythonist", "Student", "Fast Learner"],
       loop: true,
       typeSpeed: 80,
@@ -1086,45 +1113,45 @@
 
   <script src="assets/js/main.js"></script>
 
-<script>
-  const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+  <script>
+    const rand = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const enhance = id => {
-const element = document.getElementById(id),
-      text = element.innerText.split("");
+    const enhance = id => {
+      const element = document.getElementById(id),
+        text = element.innerText.split("");
 
-element.innerText = "";
+      element.innerText = "";
 
-text.forEach((value, index) => {
-  const outer = document.createElement("span");
-  
-  outer.className = "outer";
-  
-  const inner = document.createElement("span");
-  
-  inner.className = "inner";
-  
-  inner.style.animationDelay = `${rand(-5000, 0)}ms`;
-  
-  const letter = document.createElement("span");
-  
-  letter.className = "letter";
-  
-  letter.innerText = value;
-  
-  letter.style.animationDelay = `${index * 1000 }ms`;
-  
-  inner.appendChild(letter);    
-  
-  outer.appendChild(inner);    
-  
-  element.appendChild(outer);
-});
-}
+      text.forEach((value, index) => {
+        const outer = document.createElement("span");
 
-enhance("channel-link");
+        outer.className = "outer";
 
-</script>
+        const inner = document.createElement("span");
+
+        inner.className = "inner";
+
+        inner.style.animationDelay = `${rand(-5000, 0)}ms`;
+
+        const letter = document.createElement("span");
+
+        letter.className = "letter";
+
+        letter.innerText = value;
+
+        letter.style.animationDelay = `${index * 1000}ms`;
+
+        inner.appendChild(letter);
+
+        outer.appendChild(inner);
+
+        element.appendChild(outer);
+      });
+    }
+
+    enhance("channel-link");
+
+  </script>
 
 
 
