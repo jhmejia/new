@@ -970,7 +970,7 @@ small {
   font-size: 1em;
   margin: 0 0 0.5em;
   line-height: 1.5;
-  white-space: pre;
+  white-space: pre-line;
 }
 
 .mast__text span {
